@@ -28,3 +28,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 "Changed main back to original and updating readme"
 "creating log"
 "creating log for style "
+"cd test"
