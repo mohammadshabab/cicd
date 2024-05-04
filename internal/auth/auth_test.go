@@ -2,13 +2,10 @@ package auth
 
 import (
 	"errors"
-	"net/http"
 	"testing"
 )
 
 func Test_GetAPIKey(t *testing.T) {
-	type m map[string]http.ResponseWriter
-	//m := make(map[string]http.ResponseWriter)
 	tests := []struct {
 		name   string
 		input  map[string][]string
