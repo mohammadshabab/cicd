@@ -23,7 +23,7 @@ jobs:
 
   tests-formatting:
     name: Formatting code
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout code
