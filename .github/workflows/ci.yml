@@ -21,7 +21,7 @@ jobs:
       - name: Force Failure
         run: go test ./... -cover
 
-  tests-formatting:
+  style:
     name: Formatting code
     runs-on: ubuntu-latest
 
